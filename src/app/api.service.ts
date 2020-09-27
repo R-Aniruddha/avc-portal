@@ -21,3 +21,6 @@ export class ApiService {
   }
 
 }
+
+//Run
+//$ json-server db.json

@@ -6,20 +6,20 @@ import { MainComponent } from './main/main.component';
 import { EditNavbarComponent } from './edit-navbar/edit-navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { CreateportalComponent } from './createportal/createportal.component';
-import { EditfooterComponent } from './editfooter/editfooter.component';
+//import { EditfooterComponent } from './editfooter/editfooter.component';
 
 const routes: Routes = [
-  { 
-    path: '', 
-    redirectTo: '/home', 
+  {
+    path: '',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
-    path: 'home', 
-    component: MainComponent 
+    path: 'home',
+    component: MainComponent
   },
   {
-    path: 'dashboard', 
+    path: 'dashboard',
     component: DashboardComponent,
     children: [
       {
@@ -31,18 +31,20 @@ const routes: Routes = [
         path: 'editnavbar',
         component:EditNavbarComponent,
         //outlet: 'subrouter'
-      },
+      }
+
+      /*,
       {
         path: 'editfooter',
         component:EditfooterComponent,
         //outlet: 'subrouter'
-      }
+      }*/
     ]
   },
-  
+
   {
-    path: '**', 
-    component: NotfoundComponent 
+    path: '**',
+    component: NotfoundComponent
   }
 ];
 

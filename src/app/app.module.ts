@@ -14,10 +14,11 @@ import { FooterComponent } from './footer/footer.component';
 import { EditNavbarComponent } from './edit-navbar/edit-navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { CreateportalComponent } from './createportal/createportal.component';
-import { EditfooterComponent } from './editfooter/editfooter.component';
+//import { EditfooterComponent } from './editfooter/editfooter.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import {MatButtonModule } from '@angular/material/button';
+import {MatCheckboxModule} from '@angular/material/checkbox'
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
@@ -37,7 +38,7 @@ import { ApiService } from './api.service';
     FooterComponent,
     routingComponents,
     EditNavbarComponent,
-    EditfooterComponent,
+    //EditfooterComponent,
     CreateportalComponent,
     NotfoundComponent
   ],
@@ -45,12 +46,12 @@ import { ApiService } from './api.service';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule, 
+    MatButtonModule,
     MatCheckboxModule,
     MatToolbarModule,
     MatCardModule,
     MatInputModule,
-    MatFormFieldModule, 
+    MatFormFieldModule,
     MatSelectModule,
     FormsModule,
     HttpClientModule

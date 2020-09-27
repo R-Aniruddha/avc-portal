@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 //import {Styling } from '../model/styling';
 import { StylingService } from '../styling.service';
-import { Directive, ElementRef, Renderer, Renderer2 } from '@angular/core';
+import { Directive, ElementRef, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-edit-navbar',
@@ -33,6 +33,6 @@ export class EditNavbarComponent implements OnInit {
   changeParaColor(){
 
     }
- 
-  
+
+
 }
