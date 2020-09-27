@@ -1,0 +1,14 @@
+<h1>Dashboard</h1>
+
+<div class="example-container">
+    <mat-form-field>
+      <mat-select placeholder="Select one of the following options">
+        <a routerLink="createportal"><mat-option value="new_portal">Create New Portal</mat-option></a>
+        <a routerLink="editnavbar"><mat-option value="edit_navbar">Edit Navigation Bar</mat-option></a>
+        <a routerLink="editfooter"><mat-option value="edit_footer">Edit Footer</mat-option></a>
+      </mat-select>
+    </mat-form-field>
+    <router-outlet></router-outlet>
+    
+  </div>
+  

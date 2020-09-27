@@ -1,0 +1,31 @@
+<a href="{{unit.url}}" target="_blank">
+  <mat-card class="card ">
+      <img mat-card-image src="{{unit.iconUrl}}" alt="{{unit.title}} Logo">
+    
+    <mat-card-header>
+        <mat-card-title>{{unit.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{unit.description}}
+      </p>
+    </mat-card-content>
+    
+    <div class="card-footer {{unit.footerColor}}">
+        <a *ngIf="isfbUrl()" href="{{unit.fbUrl}}"><img mat-card-sm-image src="../../assets/icons/Facebook.png" alt="Facebook Icon"></a>
+        <a *ngIf="istwUrl()" href="{{unit.twUrl}}"><img mat-card-sm-image src="../../assets/icons/Twitter.png" alt="Twitter Icon"></a>
+        <a *ngIf="isliUrl()" href="{{unit.liUrl}}"><img mat-card-sm-image src="../../assets/icons/LinkedIn.png" alt="LinkedIn Icon"></a>
+        <a *ngIf="isigUrl()" href="{{unit.igUrl}}"><img mat-card-sm-image src="../../assets/icons/Instagram.png" alt="Instagram Icon"></a>
+        <a *ngIf="isytUrl()" href="{{unit.ytUrl}}"><img mat-card-sm-image src="../../assets/icons/YouTube.png" alt="YouTube Icon"></a>
+    </div>
+  </mat-card>
+</a>
+
+
+
+
+
+<!--
+    <button mat-button (click)="testing()">Test</button>
+
+-->

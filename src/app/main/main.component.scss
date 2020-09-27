@@ -1,0 +1,91 @@
+.main{
+    padding:10px 30px;
+}
+
+.active{
+  a {
+    background-color:gainsboro;
+  }
+}
+
+.card-container {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    margin: 10px auto;
+    //background-color: rgb(138, 186, 194);
+    padding: 30px 25px;
+}
+
+.cards {
+  margin: 20px auto;
+  width:31%;
+}
+
+@media only screen and (min-width:1024px) {
+  .cards{
+    width:30%;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+  .cards{
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .cards{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .cards{
+    width: 100%;
+  }  
+}
+
+
+/*
+
+@media only screen and (min-width:1024px) {
+    .card-container .card {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 0 25%;
+      flex: 1 0 25%;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 2em;
+    }
+  }
+  
+  @media only screen and (min-width:769px) and (max-width:1023px) {
+    .card-container .card {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 0 33%;
+      flex: 1 0 33%;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 576px) {
+    .card-container .card {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 0 100%;
+      flex: 1 0 100%;
+      margin-left: 0;
+      margin-right: 0;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 2em;
+    }
+  }
+
+*/

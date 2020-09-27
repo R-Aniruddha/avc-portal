@@ -1,0 +1,78 @@
+{
+  "UNITS": [
+    {
+      "id": 1,
+      "title": "Auroville Consulting",
+      "description": "Using our expertise in ecological and socially responsible development, we work for a prosperous eco-system that supports all life on this planet.Our approach is multi-faceted: We collaborate with academic, private and public sector partners both in India and Internationally, helping to develop sustainable urban and industrial development policies, ecologically friendly technologies – and the minds of future leaders.",
+      "iconUrl": "assets/images/auroville_consulting.svg",
+      "footerColor": "bg-avc",
+      "url": "http://aurovilleconsulting.com",
+      "fbUrl": "https://www.facebook.com/AurovilleConsulting/",
+      "twUrl": "https://twitter.com/avcsustainable?lang=en",
+      "igUrl": "https://www.instagram.com/aurovilleconsulting/",
+      "ytUrl": "https://www.youtube.com/channel/UCBAU_XEu9GnTSnsBO4ySbPg",
+      "liUrl": "https://in.linkedin.com/company/auroville-consulting"
+    },
+    {
+      "id": 2,
+      "title": "AGP | Workshops",
+      "description": "Auroville Green Practices aims to bring together various stakeholders to envision future townships that offer a habitat that is ecologically, socially and economically nurturing. Distinguished professionals in the field share their vision and experiences in the form of plenary talks, participatory sessions and a panel discussion addressing the key question concerning sustainably integrated human habitats.",
+      "iconUrl": "assets/images/auroville_green_practices.svg",
+      "footerColor": "bg-agp",
+      "url": "http://agpworkshops.com/",
+      "fbUrl": "https://www.facebook.com/auroville.greenpractices/",
+      "twUrl": "https://twitter.com/AvPractice",
+      "igUrl": "https://www.instagram.com/auroville_green_practices",
+      "ytUrl": "https://www.youtube.com/user/2013AGP"
+    },
+    {
+      "id": 3,
+      "title": "Auroville Retreat",
+      "description": "Auroville Retreat hosts programs that are designed to nurture your body, mind & soul. Through a variety of mediums, our facilitators take you on a journey to inspire a harmonious blend between your body and mind. With practice, exploration, and a deepened sense of awareness, your experiences transform you, and grant you a renewed vitality to apply to your professional and personal life.",
+      "iconUrl": "assets/images/auroville_retreat.svg",
+      "footerColor": "bg-avr",
+      "url": "http://aurovilleretreat.org/",
+      "fbUrl": "https://www.facebook.com/AurovilleRetreat/",
+      "igUrl": "https://www.instagram.com/auroville.retreat/",
+      "ytUrl": "https://www.youtube.com/user/AurovilleRetreat/"
+    },
+    {
+      "id": 4,
+      "title": "Auroville Collaborative",
+      "description": "Auroville Collaborative aims to communicate the collective expression of Auroville through media, events and design. We facilitate collaboration between units of Auroville, its residents and volunteers from around the world.",
+      "iconUrl": "assets/images/auroville_collaborative.svg",
+      "footerColor": "bg-collab",
+      "url": "http://www.aurovillecollaborative.org/",
+      "fbUrl": "https://www.facebook.com/AurovilleConsulting/",
+      "twUrl": "https://twitter.com/avcsustainable?lang=en",
+      "igUrl": "https://www.instagram.com/aurovilleconsulting/",
+      "ytUrl": "https://www.youtube.com/channel/UCBAU_XEu9GnTSnsBO4ySbPg",
+      "liUrl": "https://in.linkedin.com/company/auroville-consulting"
+    },
+    {
+      "id": 5,
+      "title": "Center For Green Practices",
+      "description": "Auroville dreams of creating a centre of excellence in sustainable development. It would conduct research and teach - and help change lives. The Centre for Green Practices: Help make it a reality.",
+      "iconUrl": "assets/images/cgp_auroville.svg",
+      "footerColor": "bg-cgp",
+      "url": "https://cgpauroville.org/",
+      "fbUrl": "https://www.facebook.com/AurovilleConsulting/",
+      "twUrl": "https://twitter.com/avcsustainable?lang=en",
+      "igUrl": "https://www.instagram.com/aurovilleconsulting/",
+      "ytUrl": "https://www.youtube.com/channel/UCBAU_XEu9GnTSnsBO4ySbPg",
+      "liUrl": "https://in.linkedin.com/company/auroville-consulting"
+    },
+    {
+      "id": 6,
+      "title": "Auroville Green Practices",
+      "description": "Auroville Green Practices Portal is a knowledge resource of integrated green practices in Auroville. It is meant for all those everywhere in the world who want to participate in our efforts at putting into practice a vision of environmentally-responsible living.",
+      "iconUrl": "assets/images/auroville_green_practices.svg",
+      "footerColor": "bg-agp",
+      "url": "http://www.green.aurovilleportal.org/",
+      "fbUrl": "https://www.facebook.com/auroville.greenpractices/",
+      "twUrl": "https://twitter.com/AvPractice",
+      "igUrl": "https://www.instagram.com/auroville_green_practices",
+      "ytUrl": "https://www.youtube.com/user/2013AGP"
+    }
+  ]
+}
